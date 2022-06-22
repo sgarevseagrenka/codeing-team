@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.naw{
+    background-color: black;
+    position: fixed;
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+.menu{
+    float: right;
+}
+.logo{
+
+}
+.as{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.saity{
+    background: linear-gradient(#dc9e9e,#ff9cb1);
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    text-align: center;
+    z-index: 55;
+}
+.h11{
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 0px #c23b3b;
+}
+.knopka1{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow:5px 5px 0px #c23b3b ;
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 50px;
+}
+.fon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.circle1{
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    animation: katim_evo 10s ease 0s infinite;
+}
+.circle2{
+    position: absolute;
+    top: -100px;
+    right: -50px;
+    animation: u_mena_net_nazvani 10s ease 0s infinite;
+}
+.circle3{
+    position: absolute;
+    bottom: -130px;
+    left: -80px;
+    opacity: 0.7;
+    animation: mul 7s ease 0s infinite;
+}
+.circle-bordered{
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+    animation: bmr 25000ms ease infinite;
+   
+}
+.circle-dashed-bordered{
+    position: absolute;
+    bottom: -250px;
+    right: -100px;
+    animation: vrash 11111ms ease 0s infinite ;
+}
+.triangle{
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    transform-origin: center;
+    animation: kak_on_kruteza 10s ease 0s infinite;
+}
+.octegon{
+    position: absolute;
+    bottom: 100px;
+    right: 550px;
+    transform-origin: center;
+    animation: octo 10s ease 0s infinite;
+
+}
+.about {
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 100px 5px;
+
+}
+
+.obsiy_text {
+    font-size: 20px;
+}
+.obsiy_h{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    text-align: center;
+
+}
+.doing {
+    background: linear-gradient(7deg, #db7e7e 18%, #ffc997 70%, #fff 70% );
+
+}
+.doing-left {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.do_text {
+    border-radius: 45px;
+    box-shadow: 5px 5px 0 red;
+    padding: 25px;
+    background-color: azure;
+
+}
+.doing-right {
+    display: inline-block;
+    width: 48%;
+}
+.sandwith{
+    width: 100%;
+}
+.serveses {
+    background: linear-gradient(340deg, #fff 45% , #db7e7e 45% );
+}
+.serveses_h3 {
+    margin: 7px 0px;
+    font-size: 24px;
+}
+.serveses_divs {
+    text-align: center;
+}
+.serveses_card {
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 30%;
+    border: 5px solid #e52f3a;
+    border-radius:45px ;
+    padding: 15px 15px 15px 15px;
+    height: 500px;
+    margin: 10px;
+
+}
+.serveses_card img{
+    width: 50%;
+}
+hr{
+    display: inline-block;
+    width: 50%;
+    background-color: #c23b3b;
+    height: 4px;
+
+
+}
+.adventeges {
+    position: relative;
+}
+.development {
+    transform: translateX(200px);
+}
+.support {
+    border-radius: 20px;
+    transform: translateX(20px);
+
+}
+.adventeges_cards{
+    border: 5px solid orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 orangered ;
+    padding: 25px;
+    margin: 20px;
+    width: 70%;
+    background-color: white;
+}
+.adventages_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+}
+.advantages_bg_2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+    position: sticky;
+
+
+}
+.advantages_bg_1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+
+}
+.our_works_title{
+    text-align: center;
+    font-size: 40px;
+}
+.our_works {
+}
+.chetiri_v_odnom {
+}
+.works_pics{
+    display: inline-block;
+    width: 49%;
+    border: 5px solid rgb(214, 32, 63);
+    text-align: center;
+    border-radius:45px ;
+    overflow: hidden;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-size: cover;
+    padding-bottom:30% ;
+
+}
+/* .works_pic{
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+
+} */
+
+@keyframes mul{
+    0%{
+        transform: translate(0,0);
+
+    }
+    50%{
+        transform: translate(50px,72px);
+
+    }
+    100%{
+        transform: translate(0,0);
+
+    }
+}
+@keyframes vrash{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(359deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+@keyframes bmr{
+    0%{
+        transform: translateX(00);
+
+    }
+    50%{
+        transform: translateX(200%);
+
+    }
+    100%{
+        transform: translateX(0);
+
+    }
+}
+@keyframes katim_evo{
+    0%{
+        transform:translate(0,0) rotate(0deg);
+
+    }
+    50%{
+        transform:translate(81px,99px) rotate(180deg);
+
+    }
+    100%{
+        transform:translate(0,0) rotate(359deg);
+
+    }
+}
+
+@keyframes u_mena_net_nazvani{
+    0%{
+        transform:translate(0,0) rotate(0deg);
+
+    }
+    50%{
+        transform:translate(-181px,199px) rotate(180deg);
+
+    }
+    100%{
+        transform:translate(0,0) rotate(359deg);
+
+    }
+}
+
+@keyframes kak_on_kruteza{
+    0%{
+        transform:rotate(0deg) translateX(00);
+
+
+    }
+    50%{
+        transform:rotate(359deg) translateX(200%);
+
+
+    }
+    100%{
+        transform:rotate(0deg) translateX(0);
+
+
+    }
+}
+@keyframes octo{
+    0%{
+        transform:rotate(0deg) translateX(00);
+
+
+    }
+    50%{
+        transform:rotate(359deg) translateX(-200%);
+
+
+    }
+    100%{
+        transform:rotate(0deg) translateX(0);
+
+
+    }
+}
+@media(max-width:1360px){
+    .doing-left {
+        width: 70%;
+        margin-right: 0;
+    }
+    .doing-right{
+        width: 70%;
+
+    }
+    .doing{
+        text-align: center;
+    }
+    .adventeges {
+        position: relative;
+    }
+    .development {
+        transform: translateX(0px);
+    }
+    .support {
+        transform: translateX(0px);
+
+    }
+    .adventeges_cards{
+        margin: auto;
+    }
+
+
+}
+@media(max-width:882px){
+    .h11{
+        font-size: 80px;
+    }
+    .doing-left {
+        width: 100%;
+    }
+    .doing-right{
+        width: 100%;
+
+    }
+    .serveses_card {
+        width: 70%;
+        padding: 15px 15px 15px 15px;
+        height: 500px;
+    }
+    
+
+}
+@media(max-width:655px){
+    .h11{
+        font-size: 40px;
+    }
+    .works_pics{
+        width: 80%;
+
+    }
+    .chetiri_v_odnom{
+        text-align: center;
+
+    }
+
+}
+
+
